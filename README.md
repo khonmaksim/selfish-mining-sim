@@ -1,4 +1,4 @@
-# Selfish Mining Simulator (Replication)
+# Selfish Mining Simulator
 
 ## Overview
 This repository contains a **discrete-event simulation** that replicates the findings of Eyal and Sirer's 2013 paper, *"Majority is not enough: Bitcoin mining is vulnerable."*
@@ -16,8 +16,8 @@ The project validates the theoretical claim that a Bitcoin mining pool can earn 
 
 1. **Clone the repository:**
 ```bash
-   git clone https://github.com/khonmaksim/selfish-mining-sim.git
-   cd selfish-mining-sim
+   $ git clone https://github.com/khonmaksim/selfish-mining-sim.git
+   $ cd selfish-mining-sim
 ```
 
 ## Usage
@@ -25,7 +25,7 @@ The project validates the theoretical claim that a Bitcoin mining pool can earn 
 1. **Compile**
 
 ```bash
-   make
+   $ make
 ```
 
 2. **Optional Parameters (can be skipped)**
@@ -39,7 +39,7 @@ The project validates the theoretical claim that a Bitcoin mining pool can earn 
 Note: running this may a take a minute (see how to modify default parameters below)
 
 ```bash
-   ./main
+   $ ./main
 ```
 This generates data.txt and plot.png in the current directory
 
@@ -57,6 +57,6 @@ You can modify default parameters by changing numerical values of the following 
 4. **Run a Simulation with Specific parameters**
 
 ```bash
-   ./main {gamma parameter} {data size} {blocks}
+   $ ./main {gamma parameter} {data size} {blocks}
 ``` 
 
