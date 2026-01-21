@@ -15,16 +15,15 @@ The project validates the theoretical claim that a Bitcoin mining pool can earn 
 ## Installation
 
 1. **Clone the repository:**
-```bash
-   git clone [https://github.com/YOUR_USERNAME/$ selfish-mining-sim.git](https://github.com/YOUR_USERNAME/selfish-mining-sim.git)
-   cd selfish-mining-sim
-```
+``` cmd
+   git clone https://github.com/khonmaksim/selfish-mining-sim.git
+   cd selfish-mining-sim```
 
 ## Usage
 
 1. **Compile**
 
-```bash
+``` cmd
    make
 ```
 
