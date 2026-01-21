@@ -15,15 +15,16 @@ The project validates the theoretical claim that a Bitcoin mining pool can earn 
 ## Installation
 
 1. **Clone the repository:**
-``` cmd
+```bash
    git clone https://github.com/khonmaksim/selfish-mining-sim.git
-   cd selfish-mining-sim```
+   cd selfish-mining-sim
+```
 
 ## Usage
 
 1. **Compile**
 
-``` cmd
+```bash
    make
 ```
 
@@ -48,11 +49,9 @@ Defaults parameters are:
 * blocks = 1000000
 
 You can modify default parameters by changing numerical values of the following constant in the source code 
-```Source code
-...
-#define DATA_SIZE 1000
-#define BLOCKS 1000000
-...
+```
+   #define DATA_SIZE 1000
+   #define BLOCKS 1000000
 ```
 
 4. **Run a Simulation with Specific parameters**
