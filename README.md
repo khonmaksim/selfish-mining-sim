@@ -6,12 +6,6 @@ This repository contains a **discrete-event simulation** that replicates the fin
 The project validates the theoretical claim that a Bitcoin mining pool can earn revenue disproportionate to its size by selectively withholding blocks ("Selfish Mining").
 
 
-
-## Features
-* Simulates block discovery without computing cryptopuzzle.
-* Validates the critical threshold of **$\alpha = 0.33$** (pool size).
-* Accounts for the propagation parameter ($\gamma$) to simulate honest node splits.
-
 ## Installation
 
 1. **Clone the repository:**
