@@ -52,5 +52,10 @@ You can modify default parameters by changing numerical values of the following 
 
 ```bash
    $ ./main {gamma parameter} {data size} {blocks}
-``` 
+```
+
+## Citing this Work
+If you use this simulation or the findings in your own research, please cite the following paper:
+
+https://zenodo.org/records/18371720
 
